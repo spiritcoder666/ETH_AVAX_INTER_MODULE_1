@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-// Author: ChatGPT
+// Author: Rohit
 
 contract GameToken {
     string public tokenName = "GameToken";
