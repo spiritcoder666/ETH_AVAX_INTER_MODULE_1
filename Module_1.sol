@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-// Author: Rohit
+// Author:Rohit
 
 contract GameToken {
     string public tokenName = "GameToken";
@@ -37,7 +37,7 @@ contract GameToken {
         assert(totalTokens == oldTotal - _amount);
     }
 
-    function redeemItemTokens(address _address, uint256 _amount ) public {
+    function redeemItemTokens(address _address, uint256 _amount) public {
         require(_amount <= tokenBalances[_address], "Insufficient balance to redeem item");
         uint256 oldTotal = totalTokens;
         tokenBalances[_address] -= _amount;
