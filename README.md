@@ -125,7 +125,7 @@ For detailed debugging and assistance, refer to the Remix documentation or commu
 
 ## Authors
 - **Rohit**
-  - GitHub: [NICxKMS](https://github.com/spiritcoder666)
+  - GitHub: [Rohit](https://github.com/spiritcoder666)
  
 
 ## License
